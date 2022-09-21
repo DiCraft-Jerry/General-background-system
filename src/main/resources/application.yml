@@ -1,6 +1,6 @@
 spring:
   application:
-    name: dicraft-api
+    name: dicraft-oss-api
   profiles:
     active: dev
   main:
