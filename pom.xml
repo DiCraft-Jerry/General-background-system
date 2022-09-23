@@ -30,6 +30,7 @@
         <alicloud.version>2.1.1.RELEASE</alicloud.version>
         <poi.version>3.9</poi.version>
         <log4j2.version>2.16.0</log4j2.version>
+        <fastdfs.version>1.27.0.0</fastdfs.version>
     </properties>
 
 
@@ -138,6 +139,14 @@
             <artifactId>poi-ooxml-schemas</artifactId>
             <version>${poi.version}</version>
         </dependency>
+
+        <!-- fastdfs-client-java -->
+        <dependency>
+            <groupId>net.oschina.zcx7878</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>${fastdfs.version}</version>
+        </dependency>
+
 
         <!--JWT-->
         <dependency>
