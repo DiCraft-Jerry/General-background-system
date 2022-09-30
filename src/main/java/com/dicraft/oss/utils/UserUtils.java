@@ -1,8 +1,9 @@
 package com.dicraft.oss.utils;
 
 import com.dicraft.oss.api.ApiError;
-import com.dicraft.oss.dto.response.SysUserLoginDTO;
+
 import com.dicraft.oss.exception.ServiceException;
+import com.dicraft.oss.modules.sys.user.dto.response.SysUserLoginDTO;
 import org.apache.shiro.SecurityUtils;
 
 /**
