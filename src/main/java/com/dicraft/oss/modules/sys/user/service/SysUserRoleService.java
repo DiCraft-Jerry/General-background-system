@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.dicraft.oss.core.api.dto.PagingReqDTO;
 import com.dicraft.oss.modules.sys.user.dto.SysUserRoleDTO;
 import com.dicraft.oss.modules.sys.user.entity.SysUserRole;
+import org.springframework.stereotype.Service;
 
 
 import java.util.List;
@@ -16,6 +17,7 @@ import java.util.List;
 *
 * @author DiCraft
 */
+@Service
 public interface SysUserRoleService extends IService<SysUserRole> {
 
     /**

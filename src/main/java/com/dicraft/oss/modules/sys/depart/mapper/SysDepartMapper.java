@@ -7,6 +7,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.dicraft.oss.modules.sys.depart.dto.SysDepartDTO;
 import com.dicraft.oss.modules.sys.depart.dto.response.SysDepartTreeDTO;
 import com.dicraft.oss.modules.sys.depart.entity.SysDepart;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
@@ -16,6 +17,7 @@ import org.apache.ibatis.annotations.Param;
 *
 * @author DiCraft
 */
+@Mapper
 public interface SysDepartMapper extends BaseMapper<SysDepart> {
 
     /**

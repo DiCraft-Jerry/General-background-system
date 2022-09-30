@@ -7,6 +7,7 @@ import com.dicraft.oss.modules.sys.user.dto.SysUserDTO;
 import com.dicraft.oss.modules.sys.user.dto.request.SysUserSaveReqDTO;
 import com.dicraft.oss.modules.sys.user.dto.response.SysUserLoginDTO;
 import com.dicraft.oss.modules.sys.user.entity.SysUser;
+import org.springframework.stereotype.Service;
 
 
 /**
@@ -16,6 +17,7 @@ import com.dicraft.oss.modules.sys.user.entity.SysUser;
 *
 * @author DiCraft
 */
+@Service
 public interface SysUserService extends IService<SysUser> {
 
     /**

@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.dicraft.oss.core.api.dto.PagingReqDTO;
 import com.dicraft.oss.modules.sys.user.dto.SysRoleDTO;
 import com.dicraft.oss.modules.sys.user.entity.SysRole;
+import org.springframework.stereotype.Service;
 
 
 /**
@@ -15,6 +16,7 @@ import com.dicraft.oss.modules.sys.user.entity.SysRole;
 * @author 聪明笨狗
 * @since 2020-04-13 16:57
 */
+@Service
 public interface SysRoleService extends IService<SysRole> {
 
     /**
